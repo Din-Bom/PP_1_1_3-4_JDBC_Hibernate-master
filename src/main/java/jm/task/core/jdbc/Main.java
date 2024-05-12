@@ -21,6 +21,6 @@ public class Main {
             System.out.println(user.toString());
         }
         usi.cleanUsersTable();
-        usi.cleanUsersTable();
+        usi.dropUsersTable();
     }
 }
