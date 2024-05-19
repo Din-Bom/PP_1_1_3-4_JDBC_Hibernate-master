@@ -20,6 +20,6 @@ public class Main {
         }
         usi.cleanUsersTable();
         usi.dropUsersTable();
-        Util.closeConnection();
+        Util.closeSessionFactory();
     }
 }
